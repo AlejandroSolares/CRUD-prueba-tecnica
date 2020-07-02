@@ -8,11 +8,11 @@ using Jobs_Dashboard_core.MiddleData;
 
 namespace Jobs_Dashboard_core.JobServices
 {
-    public class JobServices : IJobsServices
+    public class Job_Services : IJobsServices
     {
         private readonly Jobs_Context _context;
         //dep injection
-        public JobServices(Jobs_Context ctx) {
+        public Job_Services(Jobs_Context ctx) {
             _context = ctx;
 
         }
