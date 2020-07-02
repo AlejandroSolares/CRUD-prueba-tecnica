@@ -184,7 +184,7 @@ using Jobs_Dashboard_core.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(1232, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "df6b33df8314436cad7a38c18168bdad", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a9077bb4745b43cabdbdf5c8a0feb4aa", async() => {
                 BeginContext(1278, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -219,7 +219,7 @@ using Jobs_Dashboard_core.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(1294, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a12986c859814f7e9ff61b705eee9cfd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7e72508c8b641f89848054e17534bb3", async() => {
                 BeginContext(1316, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

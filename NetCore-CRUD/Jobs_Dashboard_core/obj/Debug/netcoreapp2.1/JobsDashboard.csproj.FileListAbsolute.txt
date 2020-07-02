@@ -5,7 +5,6 @@ C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\bin\Debug\netcoreapp2.1\JobsDashboard.pdb
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\bin\Debug\netcoreapp2.1\JobsDashboard.Views.dll
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\bin\Debug\netcoreapp2.1\JobsDashboard.Views.pdb
-C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\JobsDashboard.csprojAssemblyReference.cache
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\JobsDashboard.csproj.CoreCompileInputs.cache
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\JobsDashboard.RazorAssemblyInfo.cache
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\JobsDashboard.RazorAssemblyInfo.cs
@@ -35,3 +34,5 @@ C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\JobsDashboard.dll
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\JobsDashboard.pdb
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\JobsDashboard.csproj.CopyComplete
+C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\JobsDashboard\View.g.cshtml.cs
+C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\JobsDashboard.csprojAssemblyReference.cache
