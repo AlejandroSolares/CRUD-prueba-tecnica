@@ -12,7 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Jobs_Dashboard_core.Models;
 using Jobs_Dashboard_core.MiddleData;
-using Jobs_Dashboard_core.Services;
+
 
 namespace Jobs_Dashboard_core
 {
@@ -40,7 +40,7 @@ namespace Jobs_Dashboard_core
 
             //Jobs Added Services
             services.AddDbContext<Jobs_Context>(options => options.UseSqlServer(Configuration.GetConnectionString("Dev")));
-            services.AddScoped<IJobsServices, JobServices>();
+            //services.AddScoped<IJobsServices, JobServices>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
