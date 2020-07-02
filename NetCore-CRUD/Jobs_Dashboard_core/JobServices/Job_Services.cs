@@ -77,28 +77,30 @@ namespace Jobs_Dashboard_core.JobServices
             });
         }
 
-        public Task<Job> GetById(int id)
+        public Task<Job> GetById(int? id)
         {
             return Task.Run(() =>
             {
-                try
+                if (id != null)
                 {
-
-
-                    var video = _context.Jobs.Where(v => v.Id == id).First();
-                    if(video != null)
+                    try
                     {
-                        return video;
+
+
+                        var video = _context.Jobs.Where(v => v.Id == id).First();
+                        if (video != null)
+                        {
+                            return video;
+
+                        }
 
                     }
-
+                    catch (Exception exp)
+                    {
+                        Console.WriteLine($"Error: {exp}");
+                    }
                 }
-                catch (Exception exp)
-                {
-                    Console.WriteLine($"Error: {exp}");
-                }
-
-                return null;
+                    return null;
             });
         }
 

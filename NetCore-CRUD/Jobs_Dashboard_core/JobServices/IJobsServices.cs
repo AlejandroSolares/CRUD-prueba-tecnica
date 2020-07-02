@@ -11,7 +11,7 @@ namespace Jobs_Dashboard_core.JobServices
         
         Task<IEnumerable<Job>> GetAll();
         Task<Job> Create(Job job);
-        Task<Job> GetById(int id);
+        Task<Job> GetById(int? id);
         Task<Job> Update(Job job);
         Task<Job> Delete(Job job);
 

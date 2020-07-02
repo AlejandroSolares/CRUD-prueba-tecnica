@@ -30,3 +30,5 @@ C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Jobs_Dashboard_core.dll
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Jobs_Dashboard_core.pdb
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Jobs_Dashboard_core.csproj.CopyComplete
+C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\JobsDashboard\Index.g.cshtml.cs
+C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\JobsDashboard\Create.g.cshtml.cs

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Jobs_Dashboard_core.Models.Job>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.JobTitl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobCreat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobExpi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Requestor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobTitl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobCreat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JobExpi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Requestor.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdateDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

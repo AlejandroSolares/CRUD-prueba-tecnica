@@ -33,16 +33,53 @@ namespace Jobs_Dashboard_core.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Job job) {
             if (ModelState.IsValid) {
-                var result = await _service.Create(job);
+                Job result = await _service.Create(job);
                 if (result != null) {
                     return View(result);
+                }
+            }
+            return RedirectToAction(nameof(Create));
+        }
+
+        [HttpGet]
+        public IActionResult Update(int? id)
+        {
+            if (id != null) {
+                Job result = _service.GetById(id).Result;
+                if (result != null) {
+                    return View(result);
+                }
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Update(Job job){
+            if (ModelState.IsValid)
+            {
+                Job result = await _service.Create(job);
+                if (result != null)
+                {
+                    return View(job);
                 }
             }
             return View(null);
         }
 
-
-
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            Job result = await _service.GetById(id);
+            if (result != null)
+            {
+                Job jobDeleted = await _service.Delete(result);
+                if (jobDeleted != null)
+                {
+                    return RedirectToAction(nameof(Index), new { message = "The job was deleted!!!"});
+                }
+            }
+            return RedirectToAction(nameof(Index));
+        }
         /*
         // GET: Jobs_Dashboard_
         public ActionResult Index()
