@@ -13,7 +13,7 @@ namespace Jobs_Dashboard_core.Models
         public int Id { get; set; }
         [DataType(DataType.Date)]
         [Required]
-        public DateTime CreatDate { get; set; }
+        public DateTime CreateDate { get; set; }
         [DataType(DataType.Date)]
         [Required]
         public DateTime UpdateDate { get; set; }
