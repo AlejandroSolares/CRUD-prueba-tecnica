@@ -12,6 +12,38 @@ namespace Jobs_Dashboard_core.Controllers
 {
     public class Jobs_Dashboard_Controller : Controller
     {
+        private readonly Job_Services _service;
+
+        public Jobs_Dashboard_Controller(Job_Services srv) {
+            _service = srv;
+        }
+
+        public IActionResult Index()
+        {
+            var jobs = _service.GetAll();
+            
+            return View(jobs);
+        }
+
+        [HttpGet]
+        public IActionResult Create() {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(Job job) {
+            if (ModelState.IsValid) {
+                var result = await _service.Create(job);
+                if (result != null) {
+                    return View(result);
+                }
+            }
+            return View(null);
+        }
+
+
+
+        /*
         // GET: Jobs_Dashboard_
         public ActionResult Index()
         {
@@ -92,5 +124,6 @@ namespace Jobs_Dashboard_core.Controllers
                 return View();
             }
         }
+        */
     }
 }
