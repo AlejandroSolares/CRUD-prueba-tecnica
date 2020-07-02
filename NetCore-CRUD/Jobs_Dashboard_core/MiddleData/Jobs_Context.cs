@@ -13,7 +13,7 @@ namespace Jobs_Dashboard_core.MiddleData
         { }
 
         //Tables
-        public DbSet<Jobs> Jobs { get; set; }
+        public DbSet<Job> Jobs { get; set; }
         public DbSet<Job_Requestor> Job_Requestors { get; set; }
         public DbSet<Job_Type> Job_Types { get; set; }
 

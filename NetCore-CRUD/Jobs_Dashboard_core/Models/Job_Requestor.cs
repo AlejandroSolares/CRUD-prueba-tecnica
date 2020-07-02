@@ -11,6 +11,6 @@ namespace Jobs_Dashboard_core.Models
         public string job_RequestorLstNme { get; set; }
 
         //Request Jobs
-        public List<Jobs> Requested_Jobs { get; set; }
+        public List<Job> Requested_Jobs { get; set; }
     }
 }

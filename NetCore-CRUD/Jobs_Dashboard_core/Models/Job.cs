@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Jobs_Dashboard_core.Models
 {
-    public class Jobs : JobEntity
+    public class Job : JobEntity
     {
         [Required]
         public String JobTitl { get; set; }
