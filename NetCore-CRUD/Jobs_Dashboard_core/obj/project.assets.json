@@ -12225,9 +12225,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Solares\\Documents\\CRUD_Prueba_Tecnica\\CRUD-prueba-tecnica\\NetCore-CRUD\\Jobs_Dashboard_core\\Jobs_Dashboard_core.csproj",
-      "projectName": "Jobs_Dashboard_core",
-      "projectPath": "C:\\Users\\Solares\\Documents\\CRUD_Prueba_Tecnica\\CRUD-prueba-tecnica\\NetCore-CRUD\\Jobs_Dashboard_core\\Jobs_Dashboard_core.csproj",
+      "projectUniqueName": "C:\\Users\\Solares\\Documents\\CRUD_Prueba_Tecnica\\CRUD-prueba-tecnica\\NetCore-CRUD\\Jobs_Dashboard_core\\JobsDashboard.csproj",
+      "projectName": "JobsDashboard",
+      "projectPath": "C:\\Users\\Solares\\Documents\\CRUD_Prueba_Tecnica\\CRUD-prueba-tecnica\\NetCore-CRUD\\Jobs_Dashboard_core\\JobsDashboard.csproj",
       "packagesPath": "C:\\Users\\Solares\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Solares\\Documents\\CRUD_Prueba_Tecnica\\CRUD-prueba-tecnica\\NetCore-CRUD\\Jobs_Dashboard_core\\obj\\",
       "projectStyle": "PackageReference",

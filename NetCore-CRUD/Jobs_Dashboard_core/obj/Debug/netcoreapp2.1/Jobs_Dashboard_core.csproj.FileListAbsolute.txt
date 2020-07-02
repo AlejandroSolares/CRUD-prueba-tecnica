@@ -5,7 +5,6 @@ C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\bin\Debug\netcoreapp2.1\Jobs_Dashboard_core.pdb
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\bin\Debug\netcoreapp2.1\Jobs_Dashboard_core.Views.dll
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\bin\Debug\netcoreapp2.1\Jobs_Dashboard_core.Views.pdb
-C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Jobs_Dashboard_core.csprojAssemblyReference.cache
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Jobs_Dashboard_core.csproj.CoreCompileInputs.cache
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Jobs_Dashboard_core.RazorAssemblyInfo.cache
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Jobs_Dashboard_core.RazorAssemblyInfo.cs
@@ -18,6 +17,10 @@ C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\JobsDashboard\Create.g.cshtml.cs
+C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\JobsDashboard\Index.g.cshtml.cs
+C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\JobsDashboard\See.g.cshtml.cs
+C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\JobsDashboard\Update.g.cshtml.cs
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -30,5 +33,4 @@ C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Jobs_Dashboard_core.dll
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Jobs_Dashboard_core.pdb
 C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Jobs_Dashboard_core.csproj.CopyComplete
-C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\JobsDashboard\Index.g.cshtml.cs
-C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\JobsDashboard\Create.g.cshtml.cs
+C:\Users\Solares\Documents\CRUD_Prueba_Tecnica\CRUD-prueba-tecnica\NetCore-CRUD\Jobs_Dashboard_core\obj\Debug\netcoreapp2.1\Razor\Views\Home\dash.g.cshtml.cs

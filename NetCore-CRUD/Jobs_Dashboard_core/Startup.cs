@@ -41,7 +41,7 @@ namespace Jobs_Dashboard_core
 
             //Jobs Added Services
             services.AddDbContext<Jobs_Context>(options => options.UseSqlServer(Configuration.GetConnectionString("Dev")));
-            services.AddScoped<IJobsServices, Job_Services>();
+            services.AddScoped<Job_Services>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

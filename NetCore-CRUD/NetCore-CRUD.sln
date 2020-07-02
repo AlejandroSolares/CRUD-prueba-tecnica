@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobs_Dashboard_core", "Jobs_Dashboard_core\Jobs_Dashboard_core.csproj", "{1B384294-23CA-4B7B-9099-BED06F21CDE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobsDashboard", "Jobs_Dashboard_core\JobsDashboard.csproj", "{1B384294-23CA-4B7B-9099-BED06F21CDE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

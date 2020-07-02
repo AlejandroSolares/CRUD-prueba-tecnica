@@ -20,9 +20,18 @@ namespace Jobs_Dashboard_core.Controllers
 
         public IActionResult Index()
         {
-            var jobs = _service.GetAll();
+            var jobs = _service.GetAll().Result;
             
             return View(jobs);
+        }
+
+        //For the update/delete
+        public async Task<IActionResult> See(int id) {
+            Job result = await _service.GetById(id);
+            if (result != null) {
+                return View(result);
+            }
+            return RedirectToAction(nameof(Index));
         }
 
         [HttpGet]
